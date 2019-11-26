@@ -37,3 +37,7 @@ nav {
 
     background-color: #e8e8e8;
 }
+
+.ui.grid+.grid {
+    margin-top: 3rem;
+}
