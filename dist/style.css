@@ -5,7 +5,7 @@ footer {
     height: 40px;
     padding-top: 10px;
     padding-bottom: 25px;
-    background-color: #bce1a0;
+    background-color: #fedbd2;
     margin-top: -50px;
     margin-bottom: 0;
     text-align: right;
@@ -27,11 +27,13 @@ nav {
     text-align: right;
     }
 
-ui.fixed.inverted.menu {
-    background-color: #bce1a0;
-    color:#bce1a0 
+
+.ui.grid>* {
+    padding-bottom: 1rem;
 }
 
-ui.container {
-    margin-top: -50px;
+.ui.card>.content, 
+.ui.cards>.card>.content {
+
+    background-color: #e8e8e8;
 }
