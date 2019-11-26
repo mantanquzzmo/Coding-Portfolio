@@ -4,9 +4,11 @@ const ProjectCard = (props) => {
   let project = props.project
   return (
     <>
-      <div class="ui card">
+      <div class="ui card" >
         <div class="image">
-          <img src={project.image} />
+        <a href={project.link} target="_blank">
+          <img src={project.image} width="290" height="260"/>
+          </a>
         </div>
         <div class="content">
           <h3 class="ui header">{project.name}</h3>

@@ -2,19 +2,22 @@
     {
     "id": 1,
     "name": "My FizzBuzz",
-    "image": "https://i.imgur.com/wt9cxfJ.png",
-    "description": "Find FizzBuzz to win it!"
+    "image": "https://i.imgur.com/HF4RwGh.png",
+    "description": "Find FizzBuzz to win it!",
+    "link": "https://mantanquzzmo.github.io/fizzbuzz_js_martinstrid/"
     },
     {
     "id": 2,
-    "name": "UI Design",
-    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    "description": "Designing user interfaces is fun. I want to learn more about that..."
+    "name": "Address Book",
+    "image": "https://i.imgur.com/xtczz0i.png",
+    "description": "JavaScript based Address Book",
+    "link": "https://mantanquzzmo.github.io/address_book/"
     },
     {
     "id": 3,
-    "name": "Mobile UX",
-    "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "name": "BMI Calculator",
+    "image": "https://i.imgur.com/NP82UGX.png",
+    "description": "JavaScript Calculator to show your BMI",
+    "link": "https://mantanquzzmo.github.io/BMI_Challenge/src/"
     }
 ]
