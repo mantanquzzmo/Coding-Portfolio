@@ -1,9 +1,9 @@
 [
     {
     "id": 1,
-    "name": "My First Website",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "name": "My FizzBuzz",
+    "image": "https://i.imgur.com/wt9cxfJ.png",
+    "description": "Find FizzBuzz to win it!"
     },
     {
     "id": 2,
