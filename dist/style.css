@@ -1,0 +1,53 @@
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: #fedbd2;
+    margin-top: -50px;
+    margin-bottom: 0;
+    text-align: right;
+    }
+
+.main.container {
+    margin-top: 6em;
+    height: 40px;
+    }
+
+nav {
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+    }
+
+
+.ui.grid>* {
+    padding-bottom: 1rem;
+}
+
+.ui.card>.content, 
+.ui.cards>.card>.content {
+
+    background-color: #172838;
+    color: lightgray;
+}
+
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+    color: whitesmoke;
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+    color: whitesmoke;
+}
+
+.ui.grid+.grid {
+    margin-top: 3rem;
+}

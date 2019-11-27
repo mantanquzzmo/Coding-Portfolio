@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "name": "My FizzBuzz",
+    "image": "https://i.imgur.com/HF4RwGh.png",
+    "description": "Find FizzBuzz to win it!",
+    "link": "https://mantanquzzmo.github.io/fizzbuzz_js_martinstrid/"
+    },
+    {
+    "id": 2,
+    "name": "Address Book",
+    "image": "https://i.imgur.com/xtczz0i.png",
+    "description": "JavaScript based Address Book",
+    "link": "https://mantanquzzmo.github.io/address_book/"
+    },
+    {
+    "id": 3,
+    "name": "BMI Calculator",
+    "image": "https://i.imgur.com/NP82UGX.png",
+    "description": "JavaScript Calculator to show your BMI",
+    "link": "https://mantanquzzmo.github.io/BMI_Challenge/src/"
+    }
+]
