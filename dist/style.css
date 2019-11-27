@@ -1,6 +1,7 @@
 footer {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
     height: 40px;
     padding-top: 10px;
@@ -35,7 +36,16 @@ nav {
 .ui.card>.content, 
 .ui.cards>.card>.content {
 
-    background-color: #e8e8e8;
+    background-color: #172838;
+    color: lightgray;
+}
+
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+    color: whitesmoke;
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+    color: whitesmoke;
 }
 
 .ui.grid+.grid {
