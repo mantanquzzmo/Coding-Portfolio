@@ -5,9 +5,8 @@ class HideText extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      textDisplay: false
-      // text1: "text1"
-      // text2: "text2"
+      textDisplay: false,
+      text: true
     };
   }
 
@@ -22,8 +21,16 @@ class HideText extends React.Component {
   ToggleButton() {
     this.setState(currentState => ({
       textDisplay: !currentState.textDisplay,
-      buttonText: !currentState.buttonText
+      buttonText: !currentState.text
     }));
+  }
+
+  divRender() {
+    return <h4>testdiv</h4>;
+  }
+
+  divRender2() {
+    return <h1>testdiv2</h1>;
   }
 
   render() {
@@ -32,7 +39,7 @@ class HideText extends React.Component {
         <button onClick={() => this.ToggleButton()}>
           {this.state.textDisplay ? "Experience" : "About me"}
         </button>
-        {!this.state.textDisplay && this.props.text}
+        {this.state.textDisplay ? <h4>This is my extensive experience</h4> : <h4>This is however what I do in my spare time</h4>}
       </div>
     );
   }
@@ -57,35 +64,24 @@ class Jobs extends Component {
   render() {
     const jobs = this.state.jobs;
     let jobsList;
-
+    jobsList = <div>
+    <p>Tell me about</p>
+    <HideText text="test" />
+  </div>
     if (jobs.length > 0) {
       jobsList = jobs.map(job => {
         return (
-          <div key={job.id}>
-            <p>Tell me about {job.name}</p>
-            <HideText text={job.description} />
+          <div>
+            <p>Tell me about</p>
+            <HideText text="test" />
           </div>
         );
       });
     }
 
     return (
-      <div className="ui main container">
-        <div className="ui stackable two column grid">
-          <div className="column">
-            <h1 className="ui header">My Projects</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-              quod ab doloremque eaque. Consequatur temporibus, quos enim, eaque
-              nemo ad iusto sequi modi totam qui veniam? Ab asperiores inventore
-              distinctio.
-            </p>
-          </div>
-          <div className="column"></div>
-        </div>
-        <div className="ui stackable four column grid">{jobsList}</div>
-        {/* <HideText text={jobs && jobs[0].description}/> */}
-      </div>
+        <div class="ui grid"><div>{jobsList}</div></div>
+        
     );
   }
 }
