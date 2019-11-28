@@ -5,19 +5,5 @@
     "image": "https://i.imgur.com/HF4RwGh.png",
     "description": "lolos",
     "link": "https://mantanquzzmo.github.io/fizzbuzz_js_martinstrid/"
-  },
-  {
-    "id": 2,
-    "company": "Address Book",
-    "image": "https://i.imgur.com/xtczz0i.png",
-    "description": "JavaScript based Address Book",
-    "link": "https://mantanquzzmo.github.io/address_book/"
-  },
-  {
-    "id": 3,
-    "company": "BMI Calculator",
-    "image": "https://i.imgur.com/NP82UGX.png",
-    "description": "JavaScript Calculator to show your BMI",
-    "link": "https://mantanquzzmo.github.io/BMI_Challenge/src/"
   }
 ]
