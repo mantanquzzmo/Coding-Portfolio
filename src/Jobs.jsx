@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import JobsCard from "./JobsCard";
 
 class Jobs extends Component {
   constructor() {
@@ -18,7 +19,22 @@ class Jobs extends Component {
   }
 
   render() {
-    return <div>hej</div>
+    const jobs = this.state.jobs;
+    let jobsList
+
+    if (jobs.length > 0) {
+      jobsList = jobs.map(job => {
+        return (
+          <div key={job.id}>
+            <JobsCard job={job} />
+          </div>
+        )
+      })
+    }
+
+    return (
+      <div>{jobsList}</div>
+    )
   }
 }
 
