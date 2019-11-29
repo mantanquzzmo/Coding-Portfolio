@@ -9,6 +9,14 @@ class Jobs extends Component {
     };
   }
 
+  componentDidMount() {
+    axios.get("./src/data/jobs.json").then(response => {
+      this.setState({
+        jobs: response.data
+      });
+    });
+  }
+
   presentExperiences() {
     return (
       <div>
