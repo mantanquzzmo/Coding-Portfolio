@@ -5,7 +5,7 @@ const Header = () => {
     return (
       <nav className='ui secondary menu'>
         <div className="ui container">
-          <Link className="header item" to='/'>My Portfolio</Link>
+          <Link className="ui item" to='/'>My Portfolio</Link>
             <div className="right menu">
               <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>About Me</NavLink>
               <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/Projects'>Projects</NavLink>

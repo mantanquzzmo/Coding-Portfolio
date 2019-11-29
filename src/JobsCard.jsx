@@ -6,7 +6,7 @@ const JobsCard = props => {
     <>
       <div class="ui card">
         <div class="image">
-            <img src={job.image} width="290" height="260" />
+            <img src={job.image} width="260" height="260" />
         </div>
         <div class="content">
           <h3 class="ui header">{job.company}</h3>

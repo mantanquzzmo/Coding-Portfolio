@@ -7,7 +7,7 @@ const ProjectCard = props => {
       <div class="ui card">
         <div class="image">
           <a href={project.link} target="_blank">
-            <img src={project.image} width="290" height="260" />
+            <img src={project.image} width="260" height="260" />
           </a>
         </div>
         <div class="content">

@@ -33,7 +33,10 @@ class Jobs extends Component {
     }
 
     return (
-      <div className="ui stackable four column grid">{jobsList}</div>
+      <div className="ui main container">
+      <div className="ui stackable four column grid">{jobsList}
+      </div>
+      </div>
     )
   }
 }
