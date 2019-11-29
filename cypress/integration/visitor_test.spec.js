@@ -5,7 +5,8 @@ describe("Visitor can see landing page", () => {
     cy.get("nav")
       .should("contain", "About Me")
       .and("contain", "Projects")
-      .and("contain", "My Portfolio");
+      .and("contain", "My Portfolio")
+      .and("contain", "Jobs")
 
     cy.get(".ui.main.container")
       .should("contain", "Hello World")
@@ -24,5 +25,13 @@ describe("Visitor can see landing page", () => {
       .should("contain", "My FizzBuzz")
       .should("contain", "Address Book")
       .should("contain", "BMI Calculator");
+  });
+
+  it('visitor can see content on jobs page', () => {
+    cy.visit("/");
+
+    cy.get("nav").within(() => {
+      cy.contains("Jobs").click();
+    })
   });
 });
