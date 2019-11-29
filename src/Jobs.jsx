@@ -12,7 +12,7 @@ class Jobs extends Component {
   presentExperiences() {
     return (
       <div>
-        <p>LOOK AT ALL MY EXPERIENCES</p>
+        <p>LOOK AT ALL MY EXPERIENCE</p>
       </div>
     );
   }
@@ -35,20 +35,6 @@ class Jobs extends Component {
     } else {
       return <p>CLICK A BUTTON</p>
     }
-
-    // return (
-    //   <div id={displayExperiences ? "experiences": "jobs"}>
-    //     {displayExperiences ? <p>Experiences</p> : <p>Jobs</p>}
-    //     <button onClick={this.handleClick.bind(this)}>
-    //       {
-    //         displayExperiences ?
-    //         "Show me jobs"
-    //         :
-    //         "Show me experiences"
-    //       }
-    //     </button>
-    //   </div>
-    // )
   }
 
   handleClick(event) {
