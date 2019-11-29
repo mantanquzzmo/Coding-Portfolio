@@ -1,16 +1,23 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1482800673986-e832611694b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 footer {
     position: fixed;
-    left: 0px;
-    bottom: 0px;
+    display: block;
+    bottom: 0;
     width: 100%;
-    height: 40px;
+    height: 60px;
     padding-top: 10px;
-    padding-bottom: 25px;
-    background-color: #fedbd2;
-    margin-top: -50px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: lightgray;
+    margin-top: 0;
     margin-bottom: 0;
-    text-align: right;
-    }
+}
 
 .main.container {
     margin-top: 6em;
@@ -26,28 +33,47 @@ nav {
     margin-top: 0;
     margin-bottom: 0;
     text-align: right;
+    opacity: 1;
+    color: black;
     }
 
 
 .ui.grid>* {
     padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-right: 2rem;
+    padding-top: 0rem;
 }
 
 .ui.card>.content, 
-.ui.cards>.card>.content {
+.ui.cards>.card>.content,
+.ui.card>.content>.description, .ui.cards>.card>.content>.description,
+.ui.card>.content>.header, .ui.cards>.card>.content>.header  {
 
     background-color: #172838;
     color: lightgray;
-}
-
-.ui.card>.content>.description, .ui.cards>.card>.content>.description {
     color: whitesmoke;
 }
 
-.ui.card>.content>.header, .ui.cards>.card>.content>.header {
-    color: whitesmoke;
+.ui.card {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
 }
 
 .ui.grid+.grid {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    place-content: center;
+    padding: 1rem;
+}
+
+.myBox {
+    border: none;
+    padding: 21px;
+    font: 24px/36px sans-serif;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    }
+
+.ui.inverted.menu .item {
+    color: black;
 }

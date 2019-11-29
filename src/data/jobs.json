@@ -1,23 +1,42 @@
 [
     {
     "id": 1,
-    "company": "lorem",
-    "image": "https://i.imgur.com/HF4RwGh.png",
-    "description": "Find FizzBuzz to win it!",
-    "link": "https://mantanquzzmo.github.io/fizzbuzz_js_martinstrid/"
+    "company": "Valleybranch AB",
+    "image": "https://i.imgur.com/cR9hQYn.png",
+    "title": "Project Manager",
+    "desc": "Part-time Project Manager, Marketing",
+    "time": "Current - May 2014"
     },
     {
     "id": 2,
-    "company": "Address Book",
-    "image": "https://i.imgur.com/xtczz0i.png",
-    "description": "JavaScript based Address Book",
-    "link": "https://mantanquzzmo.github.io/address_book/"
+    "company": "Sports Betting Hedger",
+    "image": "https://i.imgur.com/jP8o8eA.png",
+    "title": "Creator",
+    "desc": "Built a sports hedging network",
+    "time": "Jan 2019 - May 2013"
     },
     {
     "id": 3,
-    "company": "BMI Calculator",
-    "image": "https://i.imgur.com/NP82UGX.png",
-    "description": "JavaScript Calculator to show your BMI",
-    "link": "https://mantanquzzmo.github.io/BMI_Challenge/src/"
+    "company": "TNS Sifo",
+    "image": "https://i.imgur.com/ZqcakFl.png",
+    "title": "Jr. Research Executive",
+    "desc": "Quantative Research, Tech & Finance",
+    "time": "Apr 2014 - Jun 2013"
+    },
+    {
+    "id": 4,
+    "company": "EFM Sverige AB",
+    "image": "https://i.imgur.com/hEkaKQy.png",
+    "title": "Junior Leasing Manager",
+    "desc": "Full-time leasing manager of commercial properties",
+    "time": "Aug 2008 - Sep 2007"
+    },
+    {
+    "id": 5,
+    "company": "Centrumkompaniet i Stockholm",
+    "image": "https://i.imgur.com/llcdNwt.png",
+    "title": "Rent Administrator",
+    "desc": "Admin, including due-diligence for sale",
+    "time": "Apr 2014 - Jun 2013"
     }
 ]
