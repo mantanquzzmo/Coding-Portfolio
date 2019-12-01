@@ -3,10 +3,9 @@ describe("Visitor can see landing page", () => {
     cy.visit("/");
 
     cy.get("nav")
-      .should("contain", "About Me")
-      .and("contain", "Projects")
-      .and("contain", "My Portfolio")
-      .and("contain", "Jobs")
+      .should("contain", "PROJECTS")
+      .and("contain", "PORTFOLIO")
+      .and("contain", "EXPERIENCE")
 
     cy.get(".ui.main.container")
       .should("contain", "Hello World")
@@ -16,22 +15,26 @@ describe("Visitor can see landing page", () => {
     cy.visit("/");
 
     cy.get("nav").within(() => {
-      cy.contains("Projects").click();
+      cy.contains("PROJECTS").click();
     });
 
     cy.get(".ui.card").should("have.length", 3);
 
     cy.get(".ui.main.container")
       .should("contain", "My FizzBuzz")
-      .should("contain", "Address Book")
-      .should("contain", "BMI Calculator");
+      .and("contain", "Address Book")
+      .and("contain", "BMI Calculator");
   });
 
-  it('visitor can see content on jobs page', () => {
+  it('visitor can see content on experience page', () => {
     cy.visit("/");
 
     cy.get("nav").within(() => {
-      cy.contains("Jobs").click();
+      cy.contains("EXPERIENCE").click();
     })
+
+    cy.get(".ui.stackable.four.column.grid")
+      .should("contain", "Built a sports hedging network")
+
   });
 });
