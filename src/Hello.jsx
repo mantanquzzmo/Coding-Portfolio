@@ -4,7 +4,7 @@ const Hello = () => {
   return (
     <div className="ui main container">
       <h1>
-        Martin Strid
+        MARTIN STRID
       </h1>
     </div>
   )
