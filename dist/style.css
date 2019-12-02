@@ -3,6 +3,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: gray;
+    text-align: center;
 }
 
 footer {
@@ -22,6 +24,10 @@ footer {
 .main.container {
     height: 40px;
     }
+
+.main.container h1 {
+    padding-top: 100px;
+}
 
 .menu {
     height: 50px;
@@ -58,4 +64,7 @@ footer {
     margin-top: 1rem;
     place-content: center;
     padding: 1rem;
+}
+
+.h1 { color: whitesmoke;
 }
