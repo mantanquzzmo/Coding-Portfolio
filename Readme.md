@@ -3,11 +3,13 @@
 Deployed at https://portfolio-martinstrid.netlify.com/
 
 ## The project
-Displays my projects and my previous work experience
+Displays my projects and my previous work experience.
 
 ### Dependencies
 JavaScript - JavaScript is a dynamic computer programming language.
+
 React - A JavaScript library for building user interfaces.
+
 Cypress - Open source, developer friendsly testing tool for websites.
 
 ### Acknowledgements
