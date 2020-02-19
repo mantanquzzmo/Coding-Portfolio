@@ -1,20 +1,26 @@
-import React from "react"
-import { UndrawDesignerLife } from 'react-undraw-illustrations'
+import React from "react";
 
 const About = () => {
   return (
     <div className="ui main container">
-    <div class="ui stackable two column grid">
-      <div class="column">
-      <UndrawDesignerLife primaryColor='#12283a' height='200px' />
-      </div>
-      <div class="column">
-        <h1 className="ui header">About Me</h1>
-        <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
+      <div id="centered" className="ui middle aligned two column grid">
+        <div className="row">
+          <div className="column ">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
+              className="about-image"
+            />
+          </div>
+          <div className="column">
+            <div className="about header">
+              Martin<br></br> Strid
+            </div>
+            <div className="about content">Web Developer</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
