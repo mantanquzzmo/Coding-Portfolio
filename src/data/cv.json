@@ -1,0 +1,48 @@
+[
+  {
+      "id": "1",
+      "name": "Martin Strid",
+      "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/74340272_10157782657728993_2985960525168377856_n.jpg?_nc_cat=107&_nc_ohc=yJt9BHdweo0AQktYdu_H1qn-AJW_ZMSo8ytKOm6SM9G0YPVcpZq_X3_vw&_nc_ht=scontent-arn2-1.xx&oh=50a7e991bb2f2eceb664e05509893f6f&oe=5E47C420",
+      "short": "Mechanical engineer turned Web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "skills": ["Web Development", "React", "JavaScript", "Ruby on Rails"],
+      "experience": [
+          {
+              "organization": "Valleybranch AB",
+              "start": "2017-08",
+              "end": "Present",
+              "title": "Project Manager",
+              "description": "Project Manager Consultant for web-development and Branding."
+          },
+          {
+              "organization": "Hedging Bets",
+              "start": "2014-05",
+              "end": "2017-07",
+              "title": "Creator of a hedging system",
+              "description": "Sports betting hedger focused on the Scandinavian markets."
+          },
+          {
+              "organization": "Kantar Sifo",
+              "start": "2013-06",
+              "end": "2014-04",
+              "title": "Jr. Research Executive",
+              "description": "Quantative Research in Tech & Finance"
+          }],
+      "education": [
+          {
+              "organization": "Craft Academy",
+              "start": "2019-11",
+              "end": "2020-02-15",
+              "title": "Full-Stack Web Developer",
+              "description": "12 week course in Web Development."
+          },
+          {
+              "organization": "Uppsala University",
+              "start": "2008-08",
+              "end": "2013-06",
+              "title": "Bachelor of Economics",
+              "description": "Macro and International economics"
+          }],     
+          "languages": ["Swedish", "English"],
+          "interests": ["Running", "Other stuff"]
+  }
+]
