@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./Header";
-import Footer from "./Footer";
 import Dashboard from "./Dashboard";
 import { Provider } from "react-redux";
 import { createStore } from "redux";

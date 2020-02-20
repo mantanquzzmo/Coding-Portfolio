@@ -1,47 +1,40 @@
-import React, { Component } from "react"
-import axios from "axios"
-import ProjectCard from "./ProjectCard"
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import ProjectCard from "./ProjectCard";
 
-class Projects extends Component {
-    constructor() {
-        super();
-        this.state = {
-            projects: []
-        };
-    }
+const Projects = () => {
+  const [projects, setProjects] = useState([]);
 
-    componentDidMount() {
-        axios.get('./src/data/projects.json')
-            .then(response => {
-                this.setState({
-                    projects: response.data
-                })
-            })
-    }
+  useEffect(() => {
+    axios.get("./src/data/projects.json").then(response => {
+      setProjects(response.data);
+    });
+  }, []);
 
-    render() {
-        const projects = this.state.projects
-        let projectsList
+  let projectsList;
 
-        if (projects.length > 0) {
-            projectsList = projects.reverse().map(project => {
-                return (
-                    <div class="padcard" key={project.id}>
-                        <ProjectCard project={project} />
-                    </div>
-                )
-            })
-        }
+  if (projects.length > 0) {
+    projectsList = projects.reverse().map(project => {
+      return (
+        <div class="padcard" key={project.id}>
+          <ProjectCard project={project} />
+        </div>
+      );
+    });
+  }
 
-        return (
-            <div className="ui main container">
-                <div className="ui stackable four column grid">
-                    {projectsList}
-                </div>
-                <h3 id="github-message"><a href="https://github.com/mantanquzzmo">For many more visit my GitHub!</a></h3>
-            </div>
-        )
-    }
+  return (
+    <div className="ui main container">
+      <div className="ui stackable four column grid">{projectsList}</div>
+      {projects.length > 0 ? (
+        <h3 id="github-message">
+          <a href="https://github.com/mantanquzzmo">
+            For many more visit my GitHub!
+          </a>
+        </h3>
+      ) : null}
+    </div>
+  );
 };
 
-export default Projects
+export default Projects;
