@@ -1,5 +1,5 @@
 import React from "react";
-import { connect } from "react-redux"
+import { connect } from "react-redux";
 
 const Hello = props => {
   return (
@@ -9,7 +9,12 @@ const Hello = props => {
           <div className="column">
             <div className="header">
               <h1 className="hello-header">Hey,</h1>
-              <div className="hello-content">I'm Martin Strid<br /><br />Junior Web Developer</div>
+              <div className="hello-content">
+                I'm Martin Strid
+                <br />
+                <br />
+                Junior Web Developer
+              </div>
 
               <a
                 className="ui right labeled large icon basic button"
@@ -27,13 +32,11 @@ const Hello = props => {
 };
 
 const mapDispatchToProps = dispatch => {
-    return {
-      setActivities: data => {
-        dispatch({ type: "SET_CURRENTVIEW", payload: data });
-      }
-    };
+  return {
+    setActivities: data => {
+      dispatch({ type: "SET_CURRENTVIEW", payload: data });
+    }
   };
-  
-  export default connect(null, mapDispatchToProps)(Hello);
+};
 
-
+export default connect(null, mapDispatchToProps)(Hello);
