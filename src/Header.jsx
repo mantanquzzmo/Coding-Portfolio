@@ -1,19 +1,50 @@
-import React from "react"
-import { NavLink, Link } from "react-router-dom"
+import React from "react";
+import { connect } from "react-redux";
 
-const Header = () => {
-    return (
-        <nav className='ui secondary menu'>
-            <div className='ui container'>
-                <Link className="ui item" to ='/'>PORTFOLIO</Link>
-                <div className="right menu">
-                    <NavLink id="cv-link" className="ui item" activeStyle={{ fontWeight: "bold" }} to='/cv'>CV</NavLink>
-                    <NavLink id="projects-link" className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>PROJECTS</NavLink>
-                    <NavLink id="contact-link" className="ui item" activeStyle={{ fontWeight: "bold" }} to='/contact'>CONTACT</NavLink>
-                </div>
-            </div>
-        </nav>
-    )
-}
+const Header = props => {
+  return (
+    <nav className="ui secondary menu">
+      <div className="ui container">
+        <button
+          className="ui item"
+          onClick={() => props.setActivities("Hello")}
+        >
+          PORTFOLIO
+        </button>
+        <div className="right menu">
+          <button
+            id="cv-link"
+            className="ui item"
+            onClick={() => props.setActivities("CV")}
+          >
+            CV
+          </button>
+          <button
+            id="projects-link"
+            className="ui item"
+            onClick={() => props.setActivities("Projects")}
+          >
+            PROJECTS
+          </button>
+          <button
+            id="contact-link"
+            className="ui item"
+            onClick={() => props.setActivities("Contact")}
+          >
+            CONTACT
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-export default Header
+const mapDispatchToProps = dispatch => {
+  return {
+    setActivities: data => {
+      dispatch({ type: "SET_CURRENTVIEW", payload: data });
+    }
+  };
+};
+
+export default connect(null, mapDispatchToProps)(Header);

@@ -51,10 +51,9 @@ class CV extends Component {
                 />
               </div>
               <div className="twelve wide column">
-                <div className="cv-header">{resume[0].name}</div>
-                Web developer<p></p>
+                <div className="cv-header">{resume[0].name}</div><br />
                 <div className="cv-content">
-                  <div className="column cv">{resume[0].short}</div>
+                  {/* <div className="column cv">{resume[0].short}</div> */}
                   <div className="ui header">EXPERIENCE</div>
                   <div className="ui three column grid">{experienceList}</div>
                   <div className="ui header">EDUCATION</div>
@@ -71,7 +70,7 @@ class CV extends Component {
                     <div className="column">
                       <div className="column cv">
                         <div className="ui header">LANGUAGES</div>
-                        {resume[0].languages.map((item, index) => {
+                        {resume[0].speaks.map((item, index) => {
                           return <li key={index}>{item}</li>;
                         })}
                       </div>

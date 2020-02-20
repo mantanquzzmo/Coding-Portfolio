@@ -1,31 +1,17 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import { BrowserRouter } from "react-router-dom"
-import { Switch, Route } from "react-router-dom"
-import Hello from "./Hello"
-import Header from "./Header"
-import Footer from "./Footer"
-import CV from "./CV"
-import Projects from "./Projects"
-import Contact from "./Contact"
+import React from "react";
+import ReactDOM from "react-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import Dashboard from "./Dashboard";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import rootReducer from "./state/reducers/rootReducer";
 
-const App = () => {
-    return (
-        <div>
-            <Header />
-            <Switch>
-                <Route exact path='/' component={Hello}></Route>
-                <Route exact path='/cv' component={CV}></Route>
-                <Route exact path='/projects' component={Projects}></Route>
-                <Route exact path='/contact' component={Contact}></Route>
-            </Switch>
-            <Footer />
-        </div>
-    )
-};
+const store = createStore(rootReducer);
 
-ReactDOM.render((
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
-), document.getElementById("app"));
+ReactDOM.render(
+  <Provider store={store}>
+    <Dashboard />
+  </Provider>,
+  document.getElementById("app")
+);

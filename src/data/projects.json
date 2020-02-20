@@ -34,6 +34,6 @@
     "description": "A TripPlanning service. Accomodation and activities that suit you.",
     "tech": "Rails, React",
     "link": "https://tripwiz.netlify.com/",
-    "github": "https://github.com/mantanquzzmo/the_reactive_herald_client"
+    "github": "https://github.com/mantanquzzmo/tripwiz_client"
   }
 ]
