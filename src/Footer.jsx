@@ -17,8 +17,8 @@ const Footer = () => {
                     </div>
                     <div className="column right aligned">
                         <p>
-                            Martin Strid ©2019<br></br>
-                            Made with React {React.version}</p>
+                            Martin Strid ©2019
+                          </p>
                     </div>
                 </div>
             </div>

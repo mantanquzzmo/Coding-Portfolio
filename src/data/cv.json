@@ -2,9 +2,9 @@
   {
       "id": "1",
       "name": "Martin Strid",
-      "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/74340272_10157782657728993_2985960525168377856_n.jpg?_nc_cat=107&_nc_ohc=yJt9BHdweo0AQktYdu_H1qn-AJW_ZMSo8ytKOm6SM9G0YPVcpZq_X3_vw&_nc_ht=scontent-arn2-1.xx&oh=50a7e991bb2f2eceb664e05509893f6f&oe=5E47C420",
-      "short": "Mechanical engineer turned Web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "skills": ["Web Development", "React", "JavaScript", "Ruby on Rails"],
+      "image": "https://i.imgur.com/OsrI0ZS.jpg",
+      "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "skills": ["Web development", "React", "JavaScript", "Ruby on Rails"],
       "experience": [
           {
               "organization": "Valleybranch AB",
@@ -42,7 +42,7 @@
               "title": "Bachelor of Economics",
               "description": "Macro and International economics"
           }],     
-          "languages": ["Swedish", "English"],
-          "interests": ["Running", "Other stuff"]
+          "speaks": ["Swedish", "English", "Conversational French", "Basic Italian"],
+          "interests": ["Code!", "Macro economics", "Cuisine"]
   }
 ]
