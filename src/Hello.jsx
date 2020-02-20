@@ -13,7 +13,7 @@ const Hello = props => {
                 I'm Martin Strid
                 <br />
                 <br />
-                Junior Web Developer
+                Web Developer
               </div>
 
               <a
