@@ -2,21 +2,21 @@
   {
       "id": "1",
       "name": "Martin Strid",
-      "image": "https://i.imgur.com/OsrI0ZS.jpg",
+      "image": "https://i.imgur.com/uw6lnRX.png",
       "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "skills": ["Web development", "React", "JavaScript", "Ruby on Rails"],
       "experience": [
           {
               "organization": "Valleybranch AB",
-              "start": "2017-08",
+              "start": "2014-08",
               "end": "Present",
               "title": "Project Manager",
-              "description": "Project Manager Consultant for web-development and Branding."
+              "description": "Project managing consultant for web development and branding."
           },
           {
               "organization": "Hedging Bets",
               "start": "2014-05",
-              "end": "2017-07",
+              "end": "2019-01",
               "title": "Creator of a hedging system",
               "description": "Sports betting hedger focused on the Scandinavian markets."
           },
@@ -25,7 +25,7 @@
               "start": "2013-06",
               "end": "2014-04",
               "title": "Jr. Research Executive",
-              "description": "Quantative Research in Tech & Finance"
+              "description": "Quantative research, Tech & Finance"
           }],
       "education": [
           {
@@ -33,16 +33,16 @@
               "start": "2019-11",
               "end": "2020-02-15",
               "title": "Full-Stack Web Developer",
-              "description": "12 week course in Web Development."
+              "description": "12 week course in web development."
           },
           {
               "organization": "Uppsala University",
               "start": "2008-08",
               "end": "2013-06",
               "title": "Bachelor of Economics",
-              "description": "Macro and International economics"
+              "description": "Macro and international economics"
           }],     
-          "speaks": ["Swedish", "English", "Conversational French", "Basic Italian"],
+          "speaks": ["Swedish", "English", "Conversational french", "Basic italian"],
           "interests": ["Code!", "Macro economics", "Cuisine"]
   }
 ]

@@ -38,7 +38,7 @@ class Projects extends Component {
                 <div className="ui stackable four column grid">
                     {projectsList}
                 </div>
-                <h2 id="github-message"> For more visit my GitHub!</h2>
+                <h3 id="github-message"><a href="https://github.com/mantanquzzmo">For many more visit my GitHub!</a></h3>
             </div>
         )
     }

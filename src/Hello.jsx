@@ -9,7 +9,7 @@ const Hello = props => {
           <div className="column">
             <div className="header">
               <h1 className="hello-header">Hey,</h1>
-              <div className="hello-content">I'm Martin Strid<br /><br />Junior Web-Developer</div>
+              <div className="hello-content">I'm Martin Strid<br /><br />Junior Web Developer</div>
 
               <a
                 className="ui right labeled large icon basic button"

@@ -156,3 +156,17 @@ a[href^="mailto:"]
   color: rgba(243, 242, 242, 0.952);
   text-align: center;
 }
+
+a
+{ 
+  font-family: sans-serif;
+  color: rgba(243, 242, 242, 0.952);
+  font-size: 1.5rem;
+}
+
+a:hover
+{ 
+  font-family: sans-serif;
+  color: rgba(211, 209, 209, 0.952);
+  font-size: 1.5rem;
+}
